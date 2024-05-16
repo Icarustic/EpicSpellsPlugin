@@ -13,6 +13,7 @@ public class SpellcastPatternMapping {
         DEFAULT.bindPattern(Arrays.asList(5, 0, 7, 0), "PowerStrike");
         DEFAULT.bindPattern(Arrays.asList(5, 6, 1, 8), "ArrowStorm");
         DEFAULT.bindPattern(Arrays.asList(8, 2, 3), "Explosion");
+        DEFAULT.bindPattern(Arrays.asList(4, 1, 2), "WindBlast");
     }
     private Map<List<Integer>, String> patternMap;
 
