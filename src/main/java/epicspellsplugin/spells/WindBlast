@@ -3,7 +3,7 @@ package epicspellsplugin.spells;
 import org.bukkit.entity.Player;
 import org.bukkit.util.Vector;
 
-public class WindBlast extends Spell {
+public class WindBlast extends BaseSpell {
 
     public WindBlast() {
         super("WindBlast", "Blow your enemies away with a gust of wind!");
